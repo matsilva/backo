@@ -1,5 +1,7 @@
 # backo
 
+[![build, test, publish](https://github.com/matsilva/backo/actions/workflows/ci.yml/badge.svg)](https://github.com/matsilva/backo/actions/workflows/ci.yml)
+
 Simple exponential backoff because the others seem to have weird abstractions.
 
 This is a [Pure ESM Package](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
