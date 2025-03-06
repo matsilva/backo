@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
+
+      - run: rm package-lock.json # fixes https://github.com/matsilva/backo/actions/runs/13700270046/job/38312045835#step:5:14
       - run: npm i
       - run: npm test
       - name: Publish
