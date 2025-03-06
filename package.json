@@ -1,15 +1,17 @@
 {
-  "name": "backo",
+  "name": "@silvabyte/backo",
   "version": "1.1.0",
-  "repository": "segmentio/backo",
+  "type": "module",
+  "repository": "matsilva/backo",
   "description": "simple backoff without the weird abstractions",
   "keywords": [
     "backoff"
   ],
-  "dependencies": {},
+  "scripts": {
+    "test": "vitest run"
+  },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "vitest": "^3.0.7"
   },
   "license": "MIT"
 }
